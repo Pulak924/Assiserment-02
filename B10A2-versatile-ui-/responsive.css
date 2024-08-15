@@ -1,0 +1,121 @@
+@media screen and (max-width: 576px){
+    .manu-icon{
+        visibility: visible;
+        width: 10%;
+      }
+      .manu-icon img{
+        margin-left: 873%;
+        margin-top: -134%;
+      }
+      .nav-link{
+        visibility: hidden;
+      }
+      .hero-section{
+        grid-template-columns: repeat(1, 1fr);
+      }
+      .hero-left-side h1{
+        font-size: 45px;
+        line-height: 70px;
+        padding-top: 40px;
+      }
+      .hero-buttom{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .buttom-1, .buttom-2{
+        font-size: 16px;
+        padding: 10px 15px;
+      }
+      .section-title h1{
+        font-size: 35px;
+      }
+      .Habits-section-contant{
+        grid-template-columns: repeat(1, 1fr);
+        
+      }
+      .Habits-card{
+        width: 80%;
+        margin-left: 10%;
+      }
+
+      .ExtraMile-section{
+        grid-template-columns: repeat(1, 1fr);
+      }
+      .ExtraMile-section-left h1{
+        font-size: 35px;
+      }
+      .Extra-buttom{
+        width: 100%;
+      }
+      .ExtraMile-section-right img {
+        width: 100%;
+        border-radius: 20px;
+    }
+    .Trainings-contant-frist{
+        grid-template-columns: 50% 50%;
+    }
+    .Trainings-contant-second{
+        grid-template-columns: 50% 50%;
+        margin-top: -32%;
+        margin-bottom: -42%;
+    }
+    .Trainings-card-contant h1{
+        font-size: 11px;
+    }
+    .card-hide{
+        visibility: hidden;
+    }
+    .BMI-section-title{
+        margin-left: 9%;
+    }
+    .BMICalculator-section-contant{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .BMI-Calculator-Chart h1{
+        margin-bottom: 30px;
+    }
+    .form{
+        padding: 2% 0;
+    }
+    .Calculate-your-BMI h1 {
+      padding: 3% 0%;
+    }
+    .Calculate-your-BMI p {
+      padding: 3% 0%;
+    }
+    .form input{
+      padding: 6% 4%;
+      margin-top: 3%;
+      width: 100%;
+    }
+    .form input:nth-child(5){
+      width: 99%;
+    }
+    .form ::placeholder{
+      font-size: 16px;
+    }
+    .section-title{
+      padding: 50px 0px;
+    }
+    .Team-section-contant{
+      grid-template-columns: repeat(1, 1fr);
+      padding: 5%;
+    }
+    .footer-contant{
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-last h1{
+      text-align: left;
+      margin-left: 50px;
+    }
+    .Team-card img{
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+    }
+    .ExtraMile-section-left{
+      padding: 0 0 0 0;
+      
+    }
+}
